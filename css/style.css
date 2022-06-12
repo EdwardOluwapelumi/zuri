@@ -1,0 +1,129 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0e6eb;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+header {
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: sticky;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-right: 1.25em;
+    font-size: 1.3em;
+}
+
+.navigation ul li:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.navigation ul li a, .icon a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icon h1,#about h1{
+    color: #0e86d4;
+}
+
+#about {
+    margin: 4.38em;
+    display: flex;
+}
+
+main{
+    line-height: 2em;
+    width:100%;
+}
+.about-image {
+    width: 60%;
+    margin-left: 12em;
+}
+
+.about-image img{
+    width: 70%;
+    height: 58vh;
+    border-radius: 20px;
+}
+
+footer {
+    width: 100%;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #fff;
+}
+
+button {
+    margin-top:2em;
+    padding: 14px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background: #0e86d4;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),
+        -4px -4px 10px rgba(255, 255, 255, 0.8);
+    transition: all 0.3s;
+}
+
+button:hover {
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 10px rgba(0, 0, 255, 0.8);
+    cursor: pointer;
+}
+
+.footer-info .icon:hover {
+    cursor: pointer;
+}
+
+.copyright p {
+    opacity: 0.6;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #000;
+}
+
